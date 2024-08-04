@@ -26,6 +26,7 @@ function initialCount() {
 }
 
 
+
 // check if all images were loaded
 function imageLoaded() {
     imagesLoaded++;
