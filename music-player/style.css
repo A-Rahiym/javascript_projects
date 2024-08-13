@@ -104,6 +104,8 @@ h3 {
   top: 3px;
 }
 
+
+
 /*Media Query: iPhone (Vertical)*/
 @media screen and (max-width: 376px) {
   .player-container{

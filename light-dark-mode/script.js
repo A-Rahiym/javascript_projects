@@ -11,7 +11,6 @@ function imageMode(color) {
     image1.src = `img/undraw_proud_coder_${color}.svg`;
     image2.src = `img/undraw_feeling_proud_${color}.svg`;
     image1.src = `img/undraw_conceptual_idea_${color}.svg`;
-
 }
 
 function toggleDarkLightMode(isDark){
@@ -73,7 +72,6 @@ const currentTheme = localStorage.getItem('theme');
 
 if(currentTheme){
     document.documentElement.setAttribute('data-theme',currentTheme);
-    document.documentElement.set
    if(currentTheme ==="dark"){
         toggleSwitch.checked = true;
         toggleDarkLightMode(true);
