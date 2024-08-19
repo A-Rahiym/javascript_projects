@@ -22,7 +22,6 @@ let countdown_value = Date;
 let countdown_Active;
 let savedcount_down;
 
-
 // constants for date conversioon from miliseconds
 const second = 1000;
 const minute = second * 60;
@@ -112,6 +111,7 @@ function restorePrev_countdown(){
         updateDOM();
     }
 }
+
 //Event Listeners 
 countdown_form.addEventListener('submit', update_countdown);
 countdown_Btn.addEventListener("click", reset);
